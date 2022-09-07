@@ -4,9 +4,9 @@ import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
-    <div className="container">
+    <div className="container-landing-page">
       <Link to='/home'>
-        <button className="btn">INGRESAR</button>
+        <button className="btn-landing">INGRESAR</button>
       </Link>
     </div>
   )
