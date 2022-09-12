@@ -101,6 +101,7 @@ const getDbInfo = async () => {
   Toma los datos de la API y la base de datos y los fusiona en una matriz
   @returns Una matriz de objetos
  */
+
 const mergeInfo = async () => {
   const apiInfo = await getAllPokemon();
   const dbinfo = await getDbInfo();
@@ -109,9 +110,9 @@ const mergeInfo = async () => {
 };
 
 
-
 module.exports = {
   mergeInfo,
   getAllPokemon,
   getDbInfo
 };
+
